@@ -17,7 +17,7 @@ At this point we can plot the curve and its net.  Generate the g-code, then plot
 If we are satisfied with this net we need tabs, latches, or some means of connecting the faces once we have liberated it from the plane.
 These can be added in exactly the same manner as the sides were added to the base, that is, by extending the side face in the direction of the outward normal.
 
-Once these are added, we still have a slight problem.  With an idealized (or practically, merely, very thin) surface--say a paper model, there is no intersection between adjacent faces when we fold them into place.
+Once these are added, we still have a slight problem.  With an idealized (or practically, merely very thin) surface--say a paper model, there is no intersection between adjacent faces when we fold them into place.
 With a solid net, we need to chamfer the edges of every inward face--this just keeps things foldable.
 
 ### 3D Print
