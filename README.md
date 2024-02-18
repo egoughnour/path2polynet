@@ -11,6 +11,7 @@ Then turning left (multiplying by i) from our segment, c_1 - c_0, we point inwar
 From here we can see how traversing rectangular loops with one side in on the initial path will provide a set of sides for a (generally non-rectangular) prism.  The only remaining trick is to duplicate the base of the shape and connect the copy (the top) via one of the sides.
 Once we have both a top and a bottom of the prism, it only remains to permute the attachment points of each side (in the sense of attaching the side to either the top or bottom face).
 For a convex curve this is not needed, but in the other cases we have to fiddle with the location of the sides until they no longer overlap in the plane.
+<img width="1189" alt="irregular_box_net" src="https://github.com/egoughnour/path2polynet/assets/457471/6dd98a82-2999-4e62-8349-979fe441ffbd">
 
 At this point we can plot the curve and its net.  Generate the g-code, then plot.
 
